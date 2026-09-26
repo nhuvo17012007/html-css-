@@ -1,0 +1,25 @@
+1. XML là gì?
+-XML là từ viết tắt của từ Extensible Markup Language là ngôn ngữ đánh dấu mở rộng.
+Tác dụng
+-XML đọc mô tả nhiều loại dữ liệu khác nhau dưới dạng text.
+-Tác dụng chính của XML là đơn giản hóa việc chia sẻ dữ liệu giữa các nền tảng và các hệ thống được kết nối thông qua mạng Internet.
+2. Ưu điểm của XML
+-XML là sự độc lập,
+-XML có thể đọc và phân tích nguồn dữ liệu khá dễ dàng
+3. Nhược điểm của XML
+Tỷ lệ sai sót khi sử dụng XML để truyền dữ liệu khoảng từ 5-7%.
+3. Example
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <to>You</to>
+    <from>ME</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>
+4. So sánh XML với HTML
+*XML
+-XML cho phép người dùng tạo biểu tượng đánh dấu riêng để mô tả nội dung, tạo một biểu tượng không giới hạn và tự định nghĩa
+-Được thiết kế để chuyển tải và lưu trữ dữ liệu
+*HTML
+Được định nghĩa trước và dev phải tuân thủ
+Được thiết kế để hiển thị dữ liệu

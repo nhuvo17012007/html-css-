@@ -1,0 +1,24 @@
+1.SVG là gì?
++SVG (Scalable Vector Graphics), là một định dạng hình ảnh sử dụng cấu trúc XML để hiển thị hình ảnh dưới dạng vector
++SVG là tất cả mọi element và attribute của các element đó đều có thể animate
+2.Ưu điểm của SVG?
++Kích thước file nhỏ, dễ nén, Tiết kiệm dung lượng: Vì là hình ảnh dạng vector.
++Chất lượng hình ảnh tốt: co giãn (scale) thoải mái mà không làm giảm chất lượng hình ảnh.
++Animation: Tất cả mọi element và thuộc tính của chúng trong file SVG đều có thể animate được.
++Độ tương thích tốt: Sau nhiều năm không tương thích trình duyệt, SVGs cuối cùng đã đến. Chúng được hỗ trợ trong tất cả các trình duyệt hiện đại.
+3.Nhược điểm của SVG?
+SVG là ngôn ngữ không được thiết kế để sửa chữa trực tiếp trên mã nguồn
+4.So sánh
+*JPG
+Loại định dạng: Nén mất dữ liệu
+Bảng màu: Hàng triệu màu sắc
+Công dụng: Ảnh tĩnh, nhiếp ảnh
+*PNG-8:
+Loại định dạng: Nén không mất dữ liệu
+Bảng màu: Tối đa 256 màu
+Công dụng: Tương tự như định dạng GIF, nhưng không có hình động, tuyệt vời khi sử dụng cho biểu tượng
+*SVG:
+Loại định dạng: Vector/ Nén không mất dữ liệu
+Bảng màu: Không giới hạn màu sắc
+Công dụng: Đồ họa/Logo cho web, màn hình Retina/độ phân giải dpi cao
+Nén mất dữ liệu Hàng triệu màu sắc Ảnh tĩnh, nhiếp ảnh
