@@ -1,0 +1,62 @@
+/* ==============================================================
+   KHỐI DÙNG CHUNG (.box)
+   ============================================================== */
+.box {
+    width: 100px;
+    /* Chiều rộng 100px */
+    height: 100px;
+    /* Chiều cao 100px */
+    display: flex;
+    /* Kích hoạt Flexbox */
+    align-items: center;
+    /* Căn giữa theo trục dọc */
+    justify-content: center;
+    /* Căn giữa theo trục ngang */
+}
+
+/* ==============================================================
+   KHỐI THỨ NHẤT (.box-1)
+   ============================================================== */
+.box-1 {
+    background-color: yellow;
+    /* Màu nền vàng */
+
+    /* --- CÁCH 1: KHAI BÁO VIỀN TÁCH RỜI THEO THUỘC TÍNH --- */
+    /* border-width: 2px 4px 6px;  Độ dày viền (Trên: 2px, Trái & Phải: 4px, Dưới: 6px) */
+    /* border-style: solid;        Kiểu đường viền nét liền */
+    /* border-color: red;          Màu viền đỏ */
+
+    /* --- CÁCH 2: KHAI BÁO VIỀN TÁCH RỜI THEO TỪNG CẠNH --- */
+    /* border-top: 2px solid red;          Viền trên dày 2px, nét liền, màu đỏ */
+    /* border-right: 2px double green;     Viền phải dày 2px, nét đôi, màu xanh lá */
+    /* border-bottom: 2px dotted #333;     Viền dưới dày 2px, nét chấm chấm, màu xám đậm */
+    /* border-left: 2px solid red;         Viền trái dày 2px, nét liền, màu đỏ */
+
+    /* --- CÁCH 3: VIẾT GỘP (SHORTHAND) TẤT CẢ 4 CẠNH --- */
+    /* border: [độ dày] [kiểu viền] [màu sắc] */
+    border: 2px solid red;
+
+    /* --- BO TRÒN GÓC (BORDER-RADIUS) --- */
+    /* Cách viết gộp 4 góc: trên-trái (4px), trên-phải (10px), dưới-phải (20px), dưới-trái (30px) */
+    /* border-radius: 4px 10px 20px 30px; */
+
+    /* Cách viết tách lẻ từng góc: */
+    /* border-top-left-radius: 4px;      Góc trên bên trái */
+    /* border-top-right-radius: 10px;    Góc trên bên phải */
+    /* border-bottom-right-radius: 20px; Góc dưới bên phải */
+    /* border-bottom-left-radius: 40px;  Góc dưới bên trái */
+
+    /* Bo tròn 50%: Kết hợp với khung hình vuông (100x100px) sẽ tạo thành hình tròn hoàn hảo */
+    border-radius: 50%;
+
+    /* Khoảng đệm bên trong 10px */
+    padding: 10px;
+}
+
+/* ==============================================================
+   KHỐI THỨ HAI (.box-2)
+   ============================================================== */
+.box-2 {
+    background-color: blue;
+    /* Màu nền xanh dương */
+}

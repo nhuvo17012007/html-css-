@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Khai báo bảng mã ký tự hiển thị (hỗ trợ tiếng Việt Unicode) -->
+    <meta charset="UTF-8">
+
+    <!-- Đảm bảo tương thích với các phiên bản trình duyệt Edge/IE cũ -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Cấu hình hiển thị co giãn chuẩn theo tỷ lệ màn hình thiết bị (Responsive) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tiêu đề trang hiển thị trên tab của trình duyệt -->
+    <title>Document</title>
+
+    <!-- Nhúng file CSS bên ngoài (External CSS) có tên là style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Khu vực viết CSS nội bộ (Internal CSS) -->
+    <style>
+        h1 {
+            /* 
+               Sử dụng biến CSS (CSS Variable) thông qua hàm var().
+               Biến --my-color thường được khai báo tại :root trong file style.css 
+               (Ví dụ: :root { --my-color: red; })
+            */
+            color: var(--my-color);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Thẻ tiêu đề h2: Hiển thị chữ màu đen mặc định vì không bị style can thiệp -->
+    <h2>Xin chao moi nguoi</h2>
+
+    <!-- Thẻ tiêu đề h1: Nhận màu sắc từ biến --my-color đã khai báo ở phần style -->
+    <h1>Xin chao moi nguoi</h1>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+/* ==============================================================
+   PHẦN TỬ CHA (.parent)
+   ============================================================== */
+.parent {
+    height: 100px; /* Chiều cao cố định 100 pixel */
+    width: 100px;  /* Chiều rộng cố định 100 pixel */
+    
+    /* 
+       rgba(R, G, B, Alpha):
+       - R = 0, G = 0, B = 200: Tạo ra màu xanh dương (Blue)
+       - Alpha = 0.6: Độ trong suốt 60% (nằm trong khoảng từ 0 - hoàn toàn trong suốt, đến 1 - đặc hoàn toàn)
+    */
+    background-color: rgba(0, 0, 200, 0.6);
+}
+
+/* ==============================================================
+   PHẦN TỬ CON HOẶC ĐỘC LẬP (.color)
+   ============================================================== */
+.color {
+    height: 50px; /* Chiều cao cố định 50 pixel (nhỏ hơn phần tử cha) */
+    width: 50px;  /* Chiều rộng cố định 50 pixel */
+    
+    /* Cùng màu nền xanh dương với độ trong suốt 0.6 */
+    background-color: rgba(0, 0, 200, 0.6);
+}

@@ -1,0 +1,51 @@
+/* ==============================================================
+   1. ĐƠN VỊ TUYỆT ĐỐI (Absolute Units): Không đổi theo màn hình
+   ============================================================== */
+/* 1inch = 2.54cm = 96px */
+/* 1px pixel: 1px = 1/96inch */
+/* 1pt points: 1pt = 1/72inch */
+
+/* ==============================================================
+   2. ĐƠN VỊ TƯƠNG ĐỐI (Relative Units): Co giãn theo ngữ cảnh
+   ============================================================== */
+/* %   : Phụ thuộc vào kích thước của thẻ cha gần nhất */
+/* em  : Phụ thuộc vào font-size của phần tử cha gần nhất */
+/* rem : Phụ thuộc trực tiếp vào font-size của thẻ gốc <html> */
+/* vh  : Chiều cao khung nhìn trình duyệt (Viewport Height). 100vh = 100% chiều cao màn hình */
+/* vw  : Chiều ngang khung nhìn trình duyệt (Viewport Width). 100vw = 100% chiều rộng màn hình */
+/* vmin: Lấy 1% theo cạnh nhỏ hơn giữa chiều rộng (vw) và chiều cao (vh) trình duyệt.
+         Ví dụ: Màn hình 1024px x 768px thì 1vmin = 1% của 768px = 7.68px */
+
+/* ==============================================================
+   3. ĐOẠN MÃ ÁP DỤNG THỰC TẾ
+   ============================================================== */
+
+/* Cấu hình thẻ gốc - làm chuẩn mốc tính cho đơn vị 'rem' */
+html {
+    font-size: 20px; /* 1rem lúc này sẽ tương đương 20px */
+}
+
+/* Xóa khoảng cách lề mặc định của trình duyệt */
+body {
+    margin: 0;
+}
+
+/* Thẻ tiêu đề h1 */
+h1 {
+    font-size: 2rem; /* 2rem = 2 * 20px (từ html) = 40px */
+    margin: 0;
+}
+
+/* Khối .box-2 */
+.box-2 {
+    width: 500px;     /* Chiều rộng cố định 500 pixel */
+    font-size: 40px;  /* Cỡ chữ cố định 40 pixel */
+}
+
+/* Khối .box */
+.box {
+    width: 2vmin;         /* Chiều rộng bằng 2% cạnh nhỏ nhất của trình duyệt */
+    height: 100vh;        /* Chiều cao phủ kín toàn bộ 100% màn hình hiển thị */
+    background-color: red;/* Màu nền đỏ */
+    font-size: 20px;      /* Cỡ chữ 20 pixel */
+}

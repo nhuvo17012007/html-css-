@@ -1,0 +1,39 @@
+/* ==============================================================
+   HỆ THỐNG MÀU SẮC TRONG CSS
+   ============================================================== */
+
+/* 1. RGB (Red, Green, Blue):
+   - Dải giá trị từ 0 đến 255 cho mỗi kênh màu.
+   - Giá trị 0 tương ứng mức cường độ tối nhất (không có ánh sáng màu đó).
+   - Giá trị 255 tương ứng mức cường độ sáng/đậm nét nhất của kênh màu đó.
+   - Ví dụ: rgb(0, 0, 0) là màu đen; rgb(255, 255, 255) là màu trắng. */
+
+/* 2. HEX (Hệ thập lục phân):
+   - Dải giá trị từ 00 đến ff (tương đương 0 đến 255 trong hệ thập phân).
+   - 00 là mức cường độ tối nhất, ff là mức cường độ tối đa của màu.
+   - Cú pháp: #RRGGBB (hoặc dạng rút gọn #RGB, ví dụ #ccc = #cccccc). */
+
+/* 3. HSL (Hue, Saturation, Lightness):
+   - Hue (Tông màu): Vòng tròn màu từ 0 đến 360 độ.
+       + 0 và 360: Màu đỏ (Red)
+       + 120: Màu xanh lá (Green)
+       + 240: Màu xanh dương (Blue)
+   - Saturation (Độ bão hòa): Từ 0% đến 100%.
+       + 0%: Màu xám hoàn toàn (mất màu).
+       + 100%: Màu hiển thị đầy đủ, rực rỡ nhất.
+   - Lightness (Độ sáng): Từ 0% đến 100%.
+       + 0%: Tối hoàn toàn (màu đen).
+       + 100%: Sáng hoàn toàn (màu trắng).
+       + 50%: Mức cân bằng chuẩn (không quá sáng, không quá tối). */
+
+/* ==============================================================
+   ÁP DỤNG THỰC TẾ
+   ============================================================== */
+
+.color {
+    /* Màu nền xám nhạt sử dụng mã màu HEX rút gọn (#cccccc) */
+    background-color: #ccc;
+
+    /* Màu chữ xanh dương chuẩn: góc 240 độ, độ tươi 100%, độ sáng 50% */
+    color: hsl(240, 100%, 50%);
+}
