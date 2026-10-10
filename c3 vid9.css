@@ -1,0 +1,43 @@
+/* ==============================================================
+   KHỐI DÙNG CHUNG (.box)
+   ============================================================== */
+.box {
+    width: 100px;   /* Chiều rộng 100 pixel */
+    height: 100px;  /* Chiều cao 100 pixel */
+    display: flex;  /* Kích hoạt mô hình dàn trang Flexbox */
+    
+    /* Căn giữa nội dung/phần tử con theo trục dọc */
+    align-items: center; 
+    
+    /* Căn giữa nội dung/phần tử con theo trục ngang */
+    justify-content: center; 
+}
+
+/* ==============================================================
+   KHỐI THỨ NHẤT (.box-1)
+   ============================================================== */
+.box-1 {
+    background-color: yellow; /* Màu nền vàng */
+
+    /* 
+       Cách viết tách lẻ từng phía (đang được comment lại):
+       padding-top: 10px;    Khoảng đệm phía trên
+       padding-right: 20px;  Khoảng đệm bên phải
+       padding-bottom: 20px; Khoảng đệm phía dưới
+       padding-left: 20px;   Khoảng đệm bên trái
+    */
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+    /* Cách viết gộp (shorthand): tạo khoảng đệm đều 10px cho cả 4 phía (trên, phải, dưới, trái) */
+    padding: 10px; 
+}
+
+/* ==============================================================
+   KHỐI THỨ HAI (.box-2)
+   ============================================================== */
+.box-2 {
+    background-color: blue; /* Màu nền xanh dương */
+}

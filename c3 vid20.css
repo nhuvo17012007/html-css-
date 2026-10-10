@@ -1,0 +1,14 @@
+.box-1 {
+    margin: 0;
+    color: #000;
+    background: #ccc url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat fixed top center;
+    /* background-color: #ccc; */
+    /* background-image: url; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+}
+
+p {
+    color: #000;
+}

@@ -1,0 +1,19 @@
+.text {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 50px;
+    width: 500px;
+    /* text-align: justify; */
+    /* direction: rtl;
+  unicode-bidi: normal; */
+    /* text-align-last: justify; */
+}
+
+img {
+    height: 6px;
+    vertical-align: middle;
+    /* Đã bổ sung giá trị. Bạn có thể thay bằng baseline, top, bottom, v.v. tùy theo nhu cầu */
+}

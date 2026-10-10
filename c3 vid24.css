@@ -1,0 +1,9 @@
+.text {
+    color: red;
+    font-size: 20px;
+    /* text-decoration-line: line-through;
+  text-decoration-color: black;
+  text-decoration-thickness: 4px;
+  text-decoration-style: wavy; */
+    text-decoration: overline;
+}

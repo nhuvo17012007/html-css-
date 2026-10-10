@@ -1,0 +1,32 @@
+/* class tag id ,*/
+[cite: 3]
+/* div,p sẽ CSS cho tất cả những thẻ p và div */
+[cite: 3]
+/* .box-2 + p sẽ CSS cho những thẻ p cùng cấp với thằng có class box-2 và nằm phía dướ */
+[cite: 3]
+/* .class1.class2 thì nó sẽ CSS cho thằng nào có cả 2 thằng class này */
+[cite: 3]
+/* * sẽ CSS cho tất cả */
+[cite: 3]
+/* div > p thì mình sẽ CSS cho cái tất cả thằng thẻ p là con của thẻ div */
+[cite: 3]
+/* ul ~ p chọn tất cả những thằng p nằm phía dưới thằng ul */
+[cite: 3]
+/* .class1 .class2 thì nó sẽ CSS cho những thằng có class2 và là con của thằng class1 */
+[cite: 3]
+/* .text-2.active > p {
+    color: red
+} */
+[cite: 3]
+/* .box-2 .box {
+    color: red
+} */
+[cite: 3]
+
+/* a[href*="http"] {
+    color: red
+} */
+[cite: 3] input~ {
+    color: red;
+    [cite: 3]
+}

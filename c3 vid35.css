@@ -1,0 +1,17 @@
+.parent {
+    border: 2px solid red;
+    height: 50px;
+    background-color: yellow;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.abs {
+    background-color: blue;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}

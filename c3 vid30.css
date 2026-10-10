@@ -1,0 +1,26 @@
+.container {
+    height: 200px;
+    overflow: auto;
+    width: 200px;
+}
+
+.container p {
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    height: 100px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: gray;
+    border-radius: 10px;
+    height: 200px;
+}

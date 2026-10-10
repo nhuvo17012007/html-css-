@@ -1,0 +1,30 @@
+.box-2 {
+    background-color: red;
+    /* h-offset v-offset blur spread color */
+    box-shadow: 2px 4px 10px;
+}
+
+a:visited {
+    color: red;
+}
+
+/* input:checked {
+  height: 50px;
+  width: 50px;
+} */
+
+/* li:nth-child(odd) {
+  color: red;
+}
+
+li:nth-child(even) {
+  color: yellow;
+} */
+
+/* li:first-child {
+  color: red
+} */
+
+.parent:first-child {
+    color: red
+}

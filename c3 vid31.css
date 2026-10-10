@@ -1,0 +1,8 @@
+p {
+    color: red;
+    width: 200px;
+    white-space: nowrap;
+    border: 2px solid yellow;
+    overflow: hidden;
+    text-overflow: hidden;
+}

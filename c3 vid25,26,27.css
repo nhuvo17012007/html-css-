@@ -1,0 +1,7 @@
+p {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-indent: -4px;
+    /* text-shadow: h-shadow v-shadow blur color; */
+    text-shadow: 2px 2px 2px red, -2px -2px 2px yellow;
+}

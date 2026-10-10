@@ -1,0 +1,8 @@
+.box-2::first-letter {
+    color: red
+}
+
+p::selection {
+    color: red;
+    background-color: #000;
+}

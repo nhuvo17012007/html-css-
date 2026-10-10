@@ -1,0 +1,10 @@
+p {
+    white-space: nowrap;
+    color: red;
+}
+
+div {
+    height: 200px;
+    max-width: calc(100% - 100px);
+    overflow: auto;
+}

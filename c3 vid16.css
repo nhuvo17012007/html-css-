@@ -1,0 +1,11 @@
+.box-1 {
+    color: #000;
+    background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg");
+    padding: 20px;
+    height: 500px;
+    border: 20px dashed red;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+/* background-clip thì chỉ apply cho thằng background color và giá trị mặc định là border-box */

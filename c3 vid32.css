@@ -1,0 +1,16 @@
+.parent {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+}
+
+.child {
+    border: 2px solid yellow;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    /* margin-top: -50px; */
+    position: relative;
+    top: -50px;
+    left: 20px;
+}

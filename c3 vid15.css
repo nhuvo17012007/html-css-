@@ -1,0 +1,9 @@
+.box-1 {
+color: #000;
+height: 500px;
+/* background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg... */
+/* background: linear-gradient(to right bottom,red 10%, green, black); */
+/* background-color: radial-gradient(circle at 50%,red, green, black); */
+/* background: conic-gradient(from 90deg,red, green); */
+background-image: repeating-linear-gradient(red 10%, green, black);
+}

@@ -1,0 +1,14 @@
+.box-2::before {
+    color: red;
+    content: ' tim hieu';
+    background-color: yellow;
+}
+
+/* p::selection {
+    color: red;
+    background-color: #000;
+}
+
+input::placeholder {
+    color: red */
+/* } */

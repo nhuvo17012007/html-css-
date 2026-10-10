@@ -1,0 +1,21 @@
+.box {
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+/* var()
+linear-radient()
+radial-gradient()
+conic-gradient()
+repeating-linear-gradient()
+repeating-conic-gradient()
+repeating-radial-gradient()
+rgb()
+hsl()
+attr */
+
+a::after {
+    content: "attr(href);
+
+}

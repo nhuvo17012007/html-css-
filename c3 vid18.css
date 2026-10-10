@@ -1,0 +1,10 @@
+.box-1 {
+    color: #000;
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=600);
+    padding: 20px;
+    height: 500px;
+    border: 2px dashed red;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: initial;
+}
